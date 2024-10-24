@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - V S Septsh Kumar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header with Photo and Contact Info -->
+    <header>
+        <div class="header-info">
+            <div class="profile-pic">
+                <img src="file:///C:/Users/septs/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/TempState/988F9153AC4FD966EA302DD9AB9BAE15/WhatsApp%20Image%202024-10-23%20at%2011.13.21_e906ec28.jpg" alt="V S Septsh Kumar Photo" id="profile-img">
+            </div>
+            <div class="contact-details">
+                <h1>V S Septsh Kumar</h1>
+                <p>Address: 123, Porur, Chennai, TamilNadu, India</p>
+                <p>Email: septsh13@gmail.com</p>
+                <p>Phone: +91 9600304524</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm V S Septsh Kumar, a 2nd year college student passionate about learning and perfecting my skills.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p> I am V S Septsh Kumar, a passionate coder with a deep love for solving complex problems through technology.
+            Ever since I wrote my first lines of code, I've been fascinated by the limitless potential programming offers
+            to create, innovate, and bring ideas to life. My journey has just begun, and I am eager to continue honing my
+            skills, learning new technologies, and contributing to impactful projects.
+
+            Whether it's working on backend logic, front-end development, or exploring new frameworks, I am constantly
+            driven by a desire to improve, learn, and master the art of coding. My goal is to grow as a developer while
+            staying ahead of the curve, embracing challenges, and delivering efficient, innovative solutions.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>java</li>
+            <li>C++</li>
+            <li>Basic Web Development</li>
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>Class 12:</strong> St Jude Public School, Thrissur (93.6%)
+            </li>
+            <li>
+                <strong>Class 10:</strong> St'Judes Public School And Junior College, Kotagiri (85.2%)
+            </li>
+            <li>
+                <strong>College 1 sem:</strong> SRM Institute of Technology , Ramapuram (CGPA : 9.45)
+            </li>
+            <li>
+                <strong>College 2 sem:</strong> SRM Institute of Technology , Ramapuram (CGPA : 9.5)
+            </li>
+        </ul>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certificate">
+            <img src="file:///C:/Users/septs/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/TempState/68AEA522760347926520BFA959F15240/WhatsApp%20Image%202024-10-16%20at%2020.25.27_12b2df4e.jpg" alt="Python Certificate">
+            <p>Python Fundamentals for Beginners - Great Learning Academy</p>
+        </div>
+        <div class="certificate">
+            <img src="file:///C:/Users/septs/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/TempState/9F820ADF84BF8A1C259F464BA89EA11F/WhatsApp%20Image%202024-10-15%20at%2008.26.25_d33c4d29.jpg" alt="Java Certificate">
+            <p>Java Programming - Great Learning Academy</p>
+        </div>
+        <div class="certificate">
+            <img src="file:///C:/Users/septs/OneDrive/Pictures/Screenshots%201/c++.png" alt="C++ Certificate">
+            <p>C++ Programming - Great Learning Academy</p>
+        </div>
+    </section>
+
+
+    
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: septsh13@gmail.com</p>
+        <p>Phone: +91 9600304524</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <style>/* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        
+        .header-info {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            background-color: #444;
+        }
+        
+        .profile-pic img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+        .contact-details h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #fff;
+        }
+        
+        .contact-details p {
+            color: #ddd;
+            margin: 5px 0;
+        }
+        
+        /* Section Styles */
+        section {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        ul li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        
+        .certificate {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .certificate img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Contact Form */
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        form input, form textarea {
+            width: 60%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #555;
+        }
+        </style>
+</body>
+
+</html>
